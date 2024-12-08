@@ -12,10 +12,12 @@ def cmd_individu(listeNageur):
     print(listeNageur)
 
 
-def cmd_nouvelle_nage(lsiteNages):
+def cmd_nouvelle_nage(listeNages):
     """Ajoute une nouvelle nage au logiciel"""
-    # à continuer
-
+    nomNage = input("Nom de la nouvelle nage ?")
+    id = len(listeNages)+1
+    listeNage/append((id,nomNage))
+    print(listeNage)
 
 
 def cmd_ajout(liste):
